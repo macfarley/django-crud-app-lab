@@ -5,9 +5,8 @@ from django.http import HttpResponse
 # Define the home view function
 def home(request):
     # Send a simple HTML response
-    return HttpResponse('<h1>Hello ᓚᘏᗢ</h1>')
+    return render(request, 'index.html')
 
 # about view
 def about(request):
-    # Send a simple HTML response
-    return HttpResponse('<h1>About the Cat Collector App ᓚᘏᗢ</h1>')
+    return render(request, 'about.html')
