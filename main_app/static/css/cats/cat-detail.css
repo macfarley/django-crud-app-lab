@@ -22,6 +22,12 @@
 
 .cat-actions {
   margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.cat-actions a {
+  margin-right: 10px;
 }
 
 .feedings-toy-container {
@@ -199,6 +205,13 @@
     width: 25%;
     max-width: 250px;
     margin-right: 25px;
+  }
+
+  .cat-actions {
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: nowrap;
   }
 
   .feedings-toy-container {
