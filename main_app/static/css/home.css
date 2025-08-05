@@ -27,6 +27,12 @@ main > section {
   width: 80%;
 }
 
+.cat-container img {
+  max-width: 100%;
+  max-height: 80vh;
+  object-fit: contain;
+}
+
 .login {
   display: flex;
   flex-direction: column;
